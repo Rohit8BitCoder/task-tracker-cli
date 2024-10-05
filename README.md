@@ -28,7 +28,7 @@ cd task-tracker-cli
 
 Run the following command to build and run the project:
 
-# To add a task
+# 1. To add a task
 ```bash
 node task-cli.js add "Task description"
 ```
@@ -37,7 +37,7 @@ node task-cli.js add "Task description"
 ```
 node task-cli.js add "Buy groceries"
 ```
-# To update a task
+# 2. To update a task
 ```
 node task-cli.js update <task_id> "New task description"
 ```
@@ -47,7 +47,7 @@ node task-cli.js update 1 "Buy groceries and cook dinner"
 
 ```
 
-# To delete a task
+# 3. To delete a task
 ```
 node task-cli.js delete <task_id>
 ```
@@ -56,7 +56,7 @@ node task-cli.js delete <task_id>
 node task-cli.js delete 1
 ```
 
-# Marking a Task as In Progress
+# 4. Marking a Task as In Progress
 
 ```
 node task-cli.js mark-in-progress <task_id>
@@ -67,7 +67,7 @@ node task-cli.js mark-in-progress 1
 
 ```
 
-# Marking a Task as Done
+# 5. Marking a Task as Done
 ```
 node task-cli.js mark-done <task_id>
 
@@ -76,11 +76,11 @@ node task-cli.js mark-done <task_id>
 ```
 node task-cli.js mark-done 1
 ```
-# Listing All Tasks
+# 6. Listing All Tasks
 ```
 node task-cli.js list
 ```
-# Listing Tasks by Status
+# 7. Listing Tasks by Status
 
 ```
 node task-cli.js list done
@@ -97,4 +97,3 @@ node task-cli.js list in-progress
 - This section should be included under the main headings in your `README.md` file.
 - Adjust the formatting or examples if you have specific use cases or variations in mind.
 
-```
