@@ -92,8 +92,3 @@ node task-cli.js list todo
 node task-cli.js list in-progress
 ```
 
-
-### Instructions:
-- This section should be included under the main headings in your `README.md` file.
-- Adjust the formatting or examples if you have specific use cases or variations in mind.
-
